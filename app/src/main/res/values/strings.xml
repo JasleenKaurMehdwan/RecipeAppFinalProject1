@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RecipeAppFinalProject</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="helping"> This project is developed by:
+    Jasleen Kaur (991587295) - Basic Navigation and UI
+        Arman Sidhu(991584901) - Firebase Setup and Data Persistence
+    </string>
+    <string name="about">This project is divided into two user access. Beginner can only view the recipe whereas professionals can create one too.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstfragment"
+    tools:ignore="MissingDefaultResource">
+
+
+    <Button
+        android:id="@+id/beginner"
+        android:layout_width="265dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="350dp"
+        android:text="BEGINNERS HERE!" />
+
+    <Button
+        android:id="@+id/professional"
+        android:layout_width="265dp"
+        android:layout_height="72dp"
+        android:layout_above="@+id/beginner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="15dp"
+        android:text="PROFESSIONALS HERE!" />
+</RelativeLayout>
